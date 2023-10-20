@@ -38,7 +38,7 @@ extern "C" {
 
 class AsyncClient;
 
-#define ASYNC_MAX_ACK_TIME 120 // default: 5000
+#define ASYNC_MAX_ACK_TIME 5000 // default: 5000
 #define ASYNC_WRITE_FLAG_COPY 0x01 //will allocate new buffer to hold the data while sending (else will hold reference to the data given)
 #define ASYNC_WRITE_FLAG_MORE 0x02 //will not send PSH flag, meaning that there should be more data to be sent before the application should react.
 
