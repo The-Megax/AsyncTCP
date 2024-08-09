@@ -62,7 +62,7 @@ extern "C" {
 #endif
 
 #ifndef CONFIG_ASYNC_TCP_PRIORITY
-#define CONFIG_ASYNC_TCP_PRIORITY 10
+#define CONFIG_ASYNC_TCP_PRIORITY 1
 #endif
 
 #ifndef CONFIG_ASYNC_TCP_QUEUE_SIZE
